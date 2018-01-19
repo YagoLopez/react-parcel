@@ -7,7 +7,10 @@ export default class App extends React.Component<{}, {}> {
   public render(): JSX.Element {
 
     return (
-      <h1>React + Parcel Starter Project</h1>
+      <div style={{flex: 1, textAlign: 'center'}}>
+        <h1>Starter Project</h1>
+        <div>React + TypeScript + Parcel</div>
+      </div>
     );
   }
 

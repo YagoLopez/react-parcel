@@ -1,34 +1,44 @@
 {
-  "name": "ts-react-parcel",
+  "name": "react-typescript-parcel",
   "version": "1.0.0",
-  "description": "Typescript with React, using parcel bundler",
+  "description": "React + TypeScript + Parcel Bundler",
   "repository": {
     "type": "git",
-    "url": "https://github.com/emaren84/ts-react-parcel"
+    "url": "https://github.com/YagoLopez/react-parcel"
   },
+  "author": "Yago Lopez",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "develop": "parcel ./src/index.html",
+    "develop": "start http://localhost:1234 & parcel ./src/index.html",
     "build": "parcel build ./src/index.html --public-url ./",
     "test": "jest",
     "test:watch": "jest --watch"
   },
   "jest": {
-    "setupFiles": ["<rootDir>/config/test-shim.js", "<rootDir>/config/test-setup.js"],
-    "moduleFileExtensions": ["ts", "tsx", "js"],
+    "setupFiles": [
+      "<rootDir>/config/test-shim.js",
+      "<rootDir>/config/test-setup.js"
+    ],
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
     "transform": {
       "^.+\\.(ts|tsx)$": "<rootDir>/config/test-preprocessor.js"
     },
-    "testMatch": ["**/__tests__/*.(test|spec).(ts|tsx|js)"]
+    "testMatch": [
+      "**/__tests__/*.(test|spec).(ts|tsx|js)"
+    ]
   },
-  "keywords": ["Typescript", "React", "Parcel"],
-  "author": "Ahn Dohyung",
-  "license": "MIT",
+  "keywords": ["React", "Typescript", "Parcel"],
   "dependencies": {
     "@types/react": "^16.0.29",
     "@types/react-dom": "^16.0.3",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "typescript": "^2.6.2"
   },
   "devDependencies": {
     "@types/enzyme": "^3.1.5",
@@ -45,6 +55,6 @@
     "tslint-config-airbnb": "^5.4.2",
     "tslint-config-prettier": "^1.6.0",
     "tslint-react": "^3.2.0",
-    "typescript": "^2.6.2"
+    "live-server": "^1.2.0"
   }
 }
