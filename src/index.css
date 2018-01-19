@@ -1,0 +1,10 @@
+.container {
+  height: 97vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: sans-serif;
+  background-color: aliceblue;
+  color: dodgerblue;
+}
