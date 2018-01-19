@@ -1,13 +1,22 @@
+body {
+  margin: 5vh;
+}
 .container {
-  height: 97vh;
+  height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   font-family: sans-serif;
   background-color: aliceblue;
-  color: dodgerblue;
+  color: #005cce;
 }
 .logo {
   width: 10vh;
+}
+.title {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-shadow: 0 4px 10px #7d7d7d;
 }

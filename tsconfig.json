@@ -1,36 +1,8 @@
 {
   "compilerOptions": {
-    "outDir": "build/dist",
-    "module": "es6",
-    "target": "es5",
-    "lib": ["es6", "dom"],
-    "sourceMap": true,
-    "allowJs": false,
-    "jsx": "react",
-    "moduleResolution": "node",
-    "rootDir": "src",
-    "forceConsistentCasingInFileNames": true,
-    "noImplicitReturns": true,
-    "noImplicitThis": false,
-    "noImplicitAny": true,
-    "strictNullChecks": true,
-    "suppressImplicitAnyIndexErrors": true,
-    "noUnusedLocals": false,
-    "skipDefaultLibCheck": true,
-    "allowSyntheticDefaultImports": true
-  }
-}
-
-/* Initial config */
-
-/*
-{
-  "compilerOptions": {
     "target": "es5",
     "module": "commonjs",
     "strict": true,
-    "jsx": "react",
-    "allowSyntheticDefaultImports": true
+    "jsx": "react"
   }
 }
-*/
