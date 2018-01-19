@@ -17872,7 +17872,9 @@ if ("development" === 'production') {
 } else {
   module.exports = require('./cjs/react-dom.development.js');
 }
-},{"./cjs/react-dom.production.min.js":9,"./cjs/react-dom.development.js":10}],6:[function(require,module,exports) {
+},{"./cjs/react-dom.production.min.js":9,"./cjs/react-dom.development.js":10}],36:[function(require,module,exports) {
+module.exports="/dist/276a7f0f2aeb14b2ef891178935a932f.svg";
+},{}],6:[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -17906,13 +17908,13 @@ var App = /** @class */function (_super) {
     return _super !== null && _super.apply(this, arguments) || this;
   }
   App.prototype.render = function () {
-    return React.createElement("main", { className: "container" }, React.createElement("h1", null, "Starter Project"), React.createElement("div", null, "React + TypeScript + Parcel"));
+    return React.createElement("main", { className: "container" }, React.createElement("img", { src: require('../puzzle.svg'), className: "logo" }), React.createElement("h1", null, "React + TypeScript + Parcel"), React.createElement("div", null, "Starter Project"));
   };
   return App;
 }(React.Component);
 exports.default = App;
 //# sourceMappingURL=App.js.map
-},{"react":7}],33:[function(require,module,exports) {
+},{"react":7,"../puzzle.svg":36}],33:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {

@@ -1,6 +1,6 @@
 import * as React from "react";
 import { SwitchProps } from "./Switch";
-import { compose } from "../utilities/compose";
+// import { compose } from "../utilities/compose";
 
 interface TogglerProps {
   on: boolean | undefined;

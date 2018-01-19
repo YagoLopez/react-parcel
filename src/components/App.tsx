@@ -6,8 +6,9 @@ export default class App extends React.Component<{}, {}> {
   public render(): JSX.Element {
     return (
       <main className="container">
-        <h1>Starter Project</h1>
-        <div>React + TypeScript + Parcel</div>
+        <img src={ require('../puzzle.svg') } className="logo" />
+        <h1>React + TypeScript + Parcel</h1>
+        <div>Starter Project</div>
       </main>
     );
   }
