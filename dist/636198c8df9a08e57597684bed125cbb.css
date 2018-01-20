@@ -10,13 +10,48 @@ body {
   font-family: sans-serif;
   background-color: aliceblue;
   color: #005cce;
+  border-radius: 10px;
 }
+/*.bordered {
+  border: 1px solid deepskyblue;
+}*/
 .logo {
   width: 10vh;
 }
 .title {
+  font-size: 20px;
   text-align: center;
   margin-left: 10px;
   margin-right: 10px;
   text-shadow: 0 4px 10px #7d7d7d;
+}
+
+/**
+ * ----------------------------------------
+ * animation flip-vertical-right
+ * ----------------------------------------
+ */
+.flip-vertical-right {
+  -webkit-animation: flip-vertical-right 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+  animation: flip-vertical-right 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+@-webkit-keyframes flip-vertical-right {
+  0% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+  }
+}
+@keyframes flip-vertical-right {
+  0% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+  }
 }

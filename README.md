@@ -11,6 +11,7 @@ The original source code of the provided example is [here](https://github.com/ke
 - Faster sucesive rebuild times than Webpack
 - Hot reload supported by default
 - Dynamic imports supported by default
+- Most usual file proccessors for Jest (`css|less|jpg|jpeg|png|gif|eot|otf|webp|svg`) etc.
 
 ## Built in settings
 
