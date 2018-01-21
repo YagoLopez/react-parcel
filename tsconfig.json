@@ -1,3 +1,4 @@
+//todo: use tsconfig template with info on options
 {
   "compilerOptions": {
     "outDir": "build/dist",

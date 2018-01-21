@@ -1,8 +1,11 @@
-# Typescript + React + Parcel = ❤️ 
+<p align="center">
+<img src="src/components/puzzle.svg" width="250"/>
+</p>
 
-This repository has basic settings for buildling react application in Typescript.
+# React + Parcel + Typescript️
 
-The original source code of the provided example is [here](https://github.com/kentcdodds/advanced-react-patterns/blob/master/14-use-control-props/index.html).
+- Forked from [this](https://github.com/emaren84/ts-react-parcel) repository.
+- [DEMO](https://yagolopez.js.org/react-parcel/dist/)
 
 ## Features
 
@@ -11,50 +14,61 @@ The original source code of the provided example is [here](https://github.com/ke
 - Faster sucesive rebuild times than Webpack
 - Hot reload supported by default
 - Dynamic imports supported by default
-- Most usual file proccessors for Jest (`css|less|jpg|jpeg|png|gif|eot|otf|webp|svg`) etc.
-
-## Built in settings
-
-- React + ReactDOM (ver.16)
-- Typescript (with TSLint setting)
-- Prettier + tslint-config-prettier
 - Test configuration using Jest + Enzyme
+- File proccessors for Jest (`css|less|jpg|jpeg|png|gif|eot|otf|webp|svg`) etc.
+- React + ReactDOM (ver.16)
 - Parcel bundler
 
-## How to set up the project
+## Setup
 
+- Clone or download the repository
+- If not installed install **yarn** package manager
+- Go to project folder and run in command line
+
+```shell
+$ yarn
 ```
-git clone git@github.com:emaren84/ts-react-parcel.git
-cd ts-react-parcel
-npm install
+
+## Run
+
+```shell
+$ yarn develop
 ```
-
-## How to start development for the application
-
-    npm run develop
 
 Execute the command and you can run & test the application on `localhost:1234` in the browser.
 
-## How to build the application
+## Build
 
-    npm run build
+```shell
+$ yarn build
+```
 
 The default output directory is `/dist`. You can change the destination wherever you want.
 
-```
+```javascript
 // package.json
 // ...
 "scripts": {
   // ...
-  "build": "parcel build ./src/index.html -d YOUR_OUTPUT_DIR --public-url '/'" <- Change here
+  "build": "parcel build ./src/index.html -d YOUR_OUTPUT_DIR --public-url ./" // <- Change here
 }
 // ...
 ```
 
-## How to test the application
+## Test
 
-    npm run test        # run test once
-    npm run test:watch  # watch mode
+```shell
+$ yarn test        # run tests suites once
+$ yarn test:watch  # watch mode
+$ yarn coverage    # code coverage
+```
 
-You have to create `__tests__` directory at the same location of files which you want to test.
-Test file's name should be `SOURCE.test.ts/tsx/js` or `SOURCE.spec.ts/tsx/js`.
+- Config tests in `config` folder
+
+- You have to create `__tests__` directory at the same location of files which you want to test.
+
+- Test file's name should be `SOURCE.test.ts/tsx/js` or `SOURCE.spec.ts/tsx/js`.
+
+  ​
+
+  <p align="center"><a href="#">Back to top :arrow_up:</p>

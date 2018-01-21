@@ -1,11 +1,9 @@
-//todo: snapshots
-
 import * as React from 'react';
-import {mount, ReactWrapper} from 'enzyme';
+import {mount, ReactWrapper, shallow} from 'enzyme';
 import {App} from '../App';
 
 
-describe("App component", () => {
+describe("APP COMPONENT", () => {
 
   const component: any = mount(<App />);
 
@@ -15,8 +13,13 @@ describe("App component", () => {
   });
 
   it("renders main content", () => {
-    // expect(component.find('main').length).toBe(1);
     expect(component.find('main').children().length).toBe(3);
+
+  });
+
+  it('matches snapshot', () => {
+    const shallowComponent = shallow(<App/>);
+    expect(shallowComponent).toMatchSnapshot();
 
   });
 

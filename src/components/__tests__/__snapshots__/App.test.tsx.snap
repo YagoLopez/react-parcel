@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`APP COMPONENT matches snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <img
+          className="logo rotation"
+          src="puzzle.svg"
+        />,
+        <h1
+          className="title"
+        >
+          React + TypeScript + Parcel
+        </h1>,
+        <div>
+          Starter Project
+        </div>,
+      ],
+      "className": "container bordered",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "logo rotation",
+          "src": "puzzle.svg",
+        },
+        "ref": "logo",
+        "rendered": null,
+        "type": "img",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "React + TypeScript + Parcel",
+          "className": "title",
+        },
+        "ref": null,
+        "rendered": "React + TypeScript + Parcel",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Starter Project",
+        },
+        "ref": null,
+        "rendered": "Starter Project",
+        "type": "div",
+      },
+    ],
+    "type": "main",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <img
+            className="logo rotation"
+            src="puzzle.svg"
+          />,
+          <h1
+            className="title"
+          >
+            React + TypeScript + Parcel
+          </h1>,
+          <div>
+            Starter Project
+          </div>,
+        ],
+        "className": "container bordered",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "logo rotation",
+            "src": "puzzle.svg",
+          },
+          "ref": "logo",
+          "rendered": null,
+          "type": "img",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "React + TypeScript + Parcel",
+            "className": "title",
+          },
+          "ref": null,
+          "rendered": "React + TypeScript + Parcel",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Starter Project",
+          },
+          "ref": null,
+          "rendered": "Starter Project",
+          "type": "div",
+        },
+      ],
+      "type": "main",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
