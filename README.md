@@ -1,3 +1,5 @@
+<p align="center"><a href="https://travis-ci.org/YagoLopez/react-parcel" target="_blank"><img src="https://travis-ci.org/YagoLopez/react-parcel.svg?branch=master" /></a></p>
+
 <p align="center">
 <img src="src/components/puzzle.svg" width="250"/>
 
@@ -8,7 +10,6 @@
 - Forked from [this](https://github.com/emaren84/ts-react-parcel) repository.
 - [DEMO](https://yagolopez.js.org/react-parcel/dist/)
 
-## Features
 
 - Zero configuration
 - Faster initial build times than Webpack
@@ -23,7 +24,7 @@
 ## Setup
 
 - Clone or download the repository
-- If not installed install **yarn** package manager
+- If not installed, install **yarn** package manager
 - Go to project folder and run in command line
 
 ```shell
