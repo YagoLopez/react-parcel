@@ -12,9 +12,6 @@ body {
   color: #005cce;
   border-radius: 10px;
 }
-/*.bordered {
-  border: 1px solid deepskyblue;
-}*/
 .logo {
   width: 10vh;
 }
@@ -54,4 +51,64 @@ body {
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
   }
+}
+/**
+ * ----------------------------------------
+ * animation flip-vertical-left
+ * ----------------------------------------
+ */
+.flip-vertical-left {
+  -webkit-animation: flip-vertical-left 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+  animation: flip-vertical-left 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+@-webkit-keyframes flip-vertical-left {
+  0% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+  }
+}
+@keyframes flip-vertical-left {
+  0% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+  }
+}
+
+/* ------------------------------ */
+
+/*.thing {
+  height:50px;
+  width:50px;
+  animation: 3s rotit infinite;
+  background:red;
+  text-align:center;
+  font-size:30px;
+  line-height:45px;
+  !*box-shadow:*!
+    !*0px 25px 7px -15px lime,*!
+    !*0px -25px 7px -15px lime,*!
+    !*25px 0px 7px -15px lime,*!
+    !*-25px 0px 7px -15px lime*!
+}*/
+
+.flip{
+  animation: 6s rotit infinite;
+}
+
+@keyframes rotit {
+  from {
+    transform: rotatey(360deg);
+  }
+  26%, 100% {
+    transform: rotatey(0deg);
+  }
+
 }
