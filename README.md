@@ -1,8 +1,7 @@
 <p align="center">
 <img src="src/components/puzzle.svg" width="250"/>
+<h1>React + Parcel + TypeScript</h1>
 </p>
-
-# React + Parcel + Typescript️
 
 - Forked from [this](https://github.com/emaren84/ts-react-parcel) repository.
 - [DEMO](https://yagolopez.js.org/react-parcel/dist/)
