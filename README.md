@@ -3,7 +3,7 @@
 
 </p>
 
-<p align="center"><h1>React + Parcel + TypeScript</h1></p>
+<h1><p align="center">React + Parcel + TypeScript</p></h1>
 
 - Forked from [this](https://github.com/emaren84/ts-react-parcel) repository.
 - [DEMO](https://yagolopez.js.org/react-parcel/dist/)
