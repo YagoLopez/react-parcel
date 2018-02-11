@@ -5,7 +5,7 @@ import {App} from '../App';
 
 describe("APP COMPONENT", () => {
 
-  const component: any = mount(<App />);
+  const component = mount(<App />);
 
   it("is defined", () => {
     expect(component).toBeDefined();
@@ -13,8 +13,7 @@ describe("APP COMPONENT", () => {
   });
 
   it("renders main content", () => {
-    expect(component.find('main').children().length).toBe(3);
-
+    expect(component.find('div').children().length).toBe(3);
   });
 
   it('matches snapshot', () => {

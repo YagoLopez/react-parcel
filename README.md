@@ -1,8 +1,14 @@
-<p align="center"><a href="https://travis-ci.org/YagoLopez/react-parcel" target="_blank"><img src="https://travis-ci.org/YagoLopez/react-parcel.svg?branch=master" /></a></p>
+<p align="center">
+  <a href="https://travis-ci.org/YagoLopez/react-parcel" target="_blank">
+    <img src="https://travis-ci.org/YagoLopez/react-parcel.svg?branch=master" />
+  </a>
+  <a href="https://codeclimate.com/github/YagoLopez/react-parcel/maintainability">
+    <img src="https://api.codeclimate.com/v1/badges/53e118fb3a91f44acb2c/maintainability" />
+  </a>
+</p>
 
 <p align="center">
-<img src="src/components/puzzle.svg" width="250"/>
-
+  <img src="src/components/puzzle.svg" width="250"/>
 </p>
 
 <h1><p align="center">React + Parcel + TypeScript</p></h1>
@@ -12,8 +18,8 @@
 
 
 - Zero configuration
-- Faster initial build times than Webpack
-- Faster sucesive rebuild times than Webpack
+- Fast initial build times
+- Fast sucesive rebuild times
 - Hot reload supported by default
 - Dynamic imports supported by default
 - Test configuration using Jest + Enzyme

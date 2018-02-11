@@ -1,4 +1,3 @@
-//todo: use tsconfig template with info on options
 {
   "compilerOptions": {
     "outDir": "build/dist",
@@ -18,6 +17,6 @@
     "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": false,
     "skipDefaultLibCheck": true,
-    "allowSyntheticDefaultImports": false
+    "allowSyntheticDefaultImports": true
   }
 }

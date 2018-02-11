@@ -13,11 +13,11 @@ export class App extends React.Component<{}, {}> {
 
   public render(): JSX.Element {
     return (
-      <main className="container bordered">
+      <div className="container bordered">
         <img ref="logo" src={ puzzle } className="logo rotation" />
         <h1 className="title">React + TypeScript + Parcel</h1>
         <div>Starter Project</div>
-      </main>
-    );
+      </div>
+    )
   }
 }
