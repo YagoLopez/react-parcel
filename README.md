@@ -29,6 +29,8 @@
 
 ## Setup
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/YagoLopez/react-parcel.svg)](https://greenkeeper.io/)
+
 - Clone or download the repository
 - If not installed, install **yarn** package manager
 - Go to project folder and run in command line
