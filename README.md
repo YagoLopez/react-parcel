@@ -5,6 +5,9 @@
   <a href="https://codeclimate.com/github/YagoLopez/react-parcel/maintainability">
     <img src="https://api.codeclimate.com/v1/badges/53e118fb3a91f44acb2c/maintainability" />
   </a>
+  <a href="https://greenkeeper.io/">
+    <img src="https://badges.greenkeeper.io/YagoLopez/react-parcel.svg" />
+  </a>
 </p>
 
 <p align="center">
@@ -28,8 +31,6 @@
 - Parcel bundler
 
 ## Setup
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/YagoLopez/react-parcel.svg)](https://greenkeeper.io/)
 
 - Clone or download the repository
 - If not installed, install **yarn** package manager
