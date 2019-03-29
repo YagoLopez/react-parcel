@@ -30,7 +30,7 @@
     "enzyme-adapter-react-16": "^1.1.0",
     "jest": "^22.2.2",
     "parcel-plugin-typescript": "^0.7.0",
-    "react-test-renderer": "^16.2.0",
+    "react-test-renderer": "^16.8.6",
     "ts-jest": "^22.0.4"
   },
   "scripts": {
